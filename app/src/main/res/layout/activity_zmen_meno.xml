@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ZmenMenoActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="Zmena mien hráčov"/>
+
+    <EditText
+        android:id="@+id/editext1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:inputType="text"
+        android:textSize="20dp"
+        android:hint="Zadajte meno Hráča č.1"/>
+
+    <EditText
+        android:id="@+id/editext2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:fontFamily="serif"
+        android:textSize="20dp"
+        android:hint="Zadajte meno Hráča č.2"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="serif"
+        android:textSize="15dp"
+        android:text="Potvrdiť"
+        android:onClick="odosliUdaje"/>
+
+</LinearLayout>
